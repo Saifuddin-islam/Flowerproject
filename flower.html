@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flower Shop</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    header, nav, main, footer {
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+    }
+
+    /* Featured flowers section */
+    #featured {
+      margin-bottom: 30px;
+    }
+
+    .flower {
+      display: inline-block;
+      width: 250px;
+      margin-right: 20px;
+    }
+
+    .flower img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Categories section */
+    #categories ul {
+      list-style-type: none;
+    }
+
+    #categories ul li {
+      margin-bottom: 10px;
+    }
+
+    #categories ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Flower Shop</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="featured">
+      <h2>Featured Flowers</h2>
+      <div class="flower">
+        <img src="https://images.pexels.com/photos/704752/pexels-photo-704752.jpeg?cs=srgb&dl=pexels-kristina-paukshtite-704752.jpg&fm=jpg" alt="Flower 1">
+        <h3>Rose</h3>
+        <p>Beautiful red roses for your loved ones.</p>
+      </div>
+      <div class="flower">
+        <img src="https://i.pinimg.com/originals/18/6d/80/186d8052b945e8204a58fe4ee2726e8a.jpg" alt="Flower 2">
+        <h3>Tulip</h3>
+        <p>Colorful tulips to brighten up any room.</p>
+      </div>
+    </section>
+    
+    <section id="categories">
+      <h2>Categories</h2>
+      <ul>
+        <li><a href="#">Birthday</a></li>
+        <li><a href="#">Anniversary</a></li>
+        <li><a href="#">Sympathy</a></li>
+        <li><a href="#">Wedding</a></li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Flower Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
